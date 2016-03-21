@@ -1,4 +1,7 @@
-package dp_strategy_airplanes;
+package airplanes;
+
+import accelerationBehaviors.AccelerateReallyFast;
+import picturesBehaviors.TakeSpyPictures;
 
 public class SR71Blackbird extends Airplane {
 	public SR71Blackbird(){

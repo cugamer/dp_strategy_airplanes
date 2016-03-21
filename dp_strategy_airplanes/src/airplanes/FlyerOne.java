@@ -1,4 +1,7 @@
-package dp_strategy_airplanes;
+package airplanes;
+
+import accelerationBehaviors.CannotAccelerate;
+import picturesBehaviors.TakePicturesOfThePlane;
 
 public class FlyerOne extends Airplane {
 	public FlyerOne(){

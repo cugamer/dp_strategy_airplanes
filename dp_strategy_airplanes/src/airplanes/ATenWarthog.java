@@ -1,4 +1,7 @@
-package dp_strategy_airplanes;
+package airplanes;
+
+import accelerationBehaviors.AccelerateNotTooFast;
+import picturesBehaviors.TakeGunCameraPictures;
 
 public class ATenWarthog extends Airplane {
 	public ATenWarthog(){

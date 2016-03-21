@@ -1,4 +1,7 @@
-package dp_strategy_airplanes;
+package airplanes;
+
+import accelerationBehaviors.AccelerationType;
+import picturesBehaviors.TakePicturesBehavior;
 
 public class Airplane {
 	protected String description;

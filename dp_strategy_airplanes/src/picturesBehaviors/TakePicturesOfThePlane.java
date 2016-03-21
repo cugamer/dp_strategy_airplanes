@@ -1,4 +1,4 @@
-package dp_strategy_airplanes;
+package picturesBehaviors;
 
 public class TakePicturesOfThePlane implements TakePicturesBehavior {
 

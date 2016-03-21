@@ -1,4 +1,4 @@
-package dp_strategy_airplanes;
+package accelerationBehaviors;
 
 public class AccelerateReallyFast implements AccelerationType {
 
