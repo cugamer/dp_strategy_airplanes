@@ -4,7 +4,7 @@ public class AccelerateReallyFast implements AccelerationType {
 
 	@Override
 	public String accelerate() {
-		return "aircraft accelerates to ludicrus speed.";
+		return "accelerates to ludicrus speed";
 	}
 
 }

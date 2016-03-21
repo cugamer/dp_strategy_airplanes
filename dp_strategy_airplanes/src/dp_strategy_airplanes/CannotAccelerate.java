@@ -4,7 +4,7 @@ public class CannotAccelerate implements AccelerationType {
 
 	@Override
 	public String accelerate() {
-		return "aircraft cannot accelerate";
+		return "cannot accelerate";
 	}
 
 }
