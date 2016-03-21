@@ -1,8 +1,9 @@
 package dp_strategy_airplanes;
 
 public class Airplane {
-	String description;
-	AccelerationType accelerationType;
+	protected String description;
+	protected AccelerationType accelerationType;
+	protected TakePicturesBehavior takePicturesBehavior;
 	
 	public String getDescription(){
 		return description;
@@ -14,5 +15,13 @@ public class Airplane {
 	
 	public void setAccelerationType(AccelerationType accelerationType){
 		this.accelerationType = accelerationType;
+	}
+	
+	public String takePictures(){
+		return takePicturesBehavior.takePicture();
+	}
+	
+	public void setTakePicturesBehavior(TakePicturesBehavior takePicturesBehavior){
+		this.takePicturesBehavior = takePicturesBehavior;
 	}
 }
