@@ -1,5 +1,5 @@
-Airplanes strategy pattern
-==========================
+Airplanes strategy pattern (Java)
+=================================
 
 An implementation of the strategy pattern as applied to an application about airplanes.  The Airplane class holds methods for various 
 concrete airplane classes which derive from it.  The AccelerationType and TakePicturesBehavior interfaces are implemented in classes
